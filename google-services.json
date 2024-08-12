@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633000779816",
+    "project_id": "fadri-notes-e50f5",
+    "storage_bucket": "fadri-notes-e50f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633000779816:android:1bcb2b1946cba6e17a951d",
+        "android_client_info": {
+          "package_name": "com.example.fadrinotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGdAaxtEQ5A88bh1SSlIUkSPk1sG0elrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

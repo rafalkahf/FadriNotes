@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|bottom"
+    android:background="@drawable/rounded_sheet"
+    tools:context=".Activity.AuthentUser.fragment.SignInAuth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="100"
+                    android:text="Sign in"
+                    android:textSize="28sp"
+                    android:fontFamily="@font/mediumpoppitalic"
+                    android:textStyle="bold|italic"
+                    android:gravity="center"
+                    android:textColor="@color/AksenColor"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:weightSum="100">
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="100"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/regpop"
+                    android:textStyle="bold"
+                    android:hint="E-mail"
+                    android:paddingStart="20dp"
+                    android:background="@drawable/edittext_custom"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="100"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/regpop"
+                    android:textStyle="bold"
+                    android:hint="Password"
+                    android:paddingStart="20dp"
+                    android:background="@drawable/edittext_custom"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/buttonSignin"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="100"
+                    android:textSize="16sp"
+                    android:text="Sign In"
+                    android:fontFamily="@font/mediumpoppitalic"
+                    android:textColor="@color/backGround"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/AksenColor"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/buttonSignUp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="100"
+                    android:textSize="16sp"
+                    android:text="Sign Up"
+                    android:fontFamily="@font/mediumpoppitalic"
+                    android:textColor="@color/AksenColor"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/backGround"
+                    />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</FrameLayout>

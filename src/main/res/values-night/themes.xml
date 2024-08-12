@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FadriNotes.Inverted" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/AksenColor</item>
+        <item name="android:statusBarColor">@color/backGround</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/backGround</item>
+        <item name="colorOnPrimary">@color/AksenColor</item>
+    </style>
+
+    <style name="CustomMenuItemText.Inverted" parent="Base.Theme.FadriNotes.Inverted">
+        <item name="android:textColor">@color/backGround</item>
+        <item name="android:fontFamily">@font/regpop</item>
+        <item name="android:background">@color/AksenColor</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="Theme.FadriNotes.Inverted" parent="Base.Theme.FadriNotes.Inverted" />
+</resources>

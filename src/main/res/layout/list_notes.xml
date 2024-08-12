@@ -1,0 +1,117 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewFirst"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="16dp"
+        android:layout_weight="50"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/noteTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsextra"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/noteHeadLine1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Headline"
+                android:fontFamily="@font/mediumpoppitalic"
+                android:textStyle="bold|italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/contentNotes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:fontFamily="@font/regpop"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/noteDate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:fontFamily="@font/regpop"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewSec"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_notes"
+        android:layout_weight="50"
+        app:cardCornerRadius="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/noteTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsextra"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/noteHeadLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Headline"
+                android:fontFamily="@font/mediumpoppitalic"
+                android:textStyle="bold|italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/noteContent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:fontFamily="@font/regpop"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/noteDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:fontFamily="@font/regpop"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FadriNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/backGround</item>
+        <item name="android:statusBarColor">@color/AksenColor</item>
+        <item name="android:navigationBarColor">@color/AksenColor  </item>
+        <item name = "colorPrimary">@color/AksenColor</item>
+        <item name = "colorOnPrimary">@color/backGround</item>
+    </style>
+
+    <style name="CustomMenuItemText" parent="Base.Theme.FadriNotes">
+        <item name="android:textColor">@color/AksenColor</item>
+        <item name="android:fontFamily">@font/regpop</item>
+        <item name="android:background">@color/backGround</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="Theme.FadriNotes" parent="Base.Theme.FadriNotes" />
+</resources>
