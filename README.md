@@ -1,16 +1,5 @@
-# FadriNotes
- Test pembuatan Aplikasi
-Rahmat Fadri Alkahfi
-Test Pembuatan Aplikasi.
-
-Assalamuallaikum wr wb
-
-Terima kasih kepada Bpk/Ibu yang terhormat atas kesempatannya, saya akan menjelaskan tata cara pengunaan dan Struktur proyek aplikasi ini ini.
-
-Fadri Notes App
-
-Terima kasih kepada Bapak/Ibu yang terhormat atas kesempatannya. Saya akan menjelaskan tata cara penggunaan dan struktur proyek aplikasi ini.
-
+# FadriNotes 
+Fadri Notes App 
 Deskripsi Aplikasi
 
 Fadri Notes App adalah aplikasi catatan yang dirancang untuk membantu pengguna dalam mengelola catatan mereka dengan mudah. Aplikasi ini menyediakan fitur-fitur utama seperti menambah, mengedit, menghapus, mencari catatan, dan membuat alarm pengingat sederhana. Pengguna harus login untuk mengakses fitur-fitur utama aplikasi.
